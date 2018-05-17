@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        android:title="@string/title_sell" />
+    <item
+        android:id="@+id/navigation_shop"
+        android:icon="@drawable/ic_store_white_24dp"
+        android:title="@string/title_store" />
+    <item
+        android:id="@+id/navigation_message"
+        android:icon="@drawable/messenger_bubble_small_white"
+        android:title="@string/title_message" />
+    <item
+        android:id="@+id/club_management"
+        android:icon="@drawable/ic_float_add_group"
+        android:title="Club management" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_person_white_24dp"
+        android:title="@string/title_profile" />
+
+
+</menu>

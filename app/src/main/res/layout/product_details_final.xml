@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.utabazzar.ProductDetails1"
+    android:background="#fff"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <FrameLayout
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/product_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cover10" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/messageSeller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:src="@drawable/messenger_bubble_small_white"/>
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:visibility="visible"
+        android:id="@+id/linear1"
+        android:layout_below="@+id/pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <com.example.android.utabazzar.customfonts.MyTextView
+            android:id="@+id/product_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/supra"
+            android:textColor="@color/text"
+            android:textSize="26dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <com.example.android.utabazzar.customfonts.MyTextView
+            android:id="@+id/sold_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hightop Sneakers"
+            android:textColor="#ff5e5c"
+            android:textSize="14dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            />
+
+        <View
+            android:id="@+id/action_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colordevider"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="156dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <com.example.android.utabazzar.customfonts.MyTextView
+            android:id="@+id/product_price1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textColor="@color/text"
+            android:textSize="24dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="onClick"
+            android:clickable="true"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/text"
+            android:layout_below="@+id/spinnerlinear"
+            android:layout_marginRight="190dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="16dp">
+
+            <com.example.android.utabazzar.customfonts.MyTextView
+                android:id="@+id/buyNowV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:letterSpacing="0.09"
+                android:padding="10dp"
+                android:text="Buy now"
+                android:textColor="#fff"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+        <com.example.android.utabazzar.customfonts.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Detail"
+            android:textColor="@color/text"
+            android:textSize="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <com.example.android.utabazzar.customfonts.MyTextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A progressive casual runner, Motion provides long lasting comfort, traction and flexibility in an upper of breathable materials with a distinctive cage-inspired eye stay. A lightweight sole with a deep geometric."
+            android:textColor="@color/subtext"
+            android:textSize="14dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="5dp"
+            />
+    </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="18dp"
+                android:id="@+id/spinnerlinear"
+                android:layout_below="@id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   >
+
+               </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/border"
+                android:layout_marginRight="200dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                ></LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <!--*******ADD TO BAG********-->
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1934170678397804/2105541633">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

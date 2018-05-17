@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">UTA Bazzar</string>
+    <string name="title_store">Store</string>
+    <string name="title_sell">Sell</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_message">Messages</string>
+    <string name="register">Register</string>
+
+
+
+    <string name="category_usefulinfo">My Ads</string>
+
+    <!-- Category name for places [CHAR LIMIT=20] -->
+    <string name="category_places">Settings</string>
+
+
+    <string name="about">About</string>
+    <string name="login_success">login success</string>
+    <string name="Username">Email</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+
+    <string name="hint_username">Enter a new username</string>
+    <string name="hint_email_reset">Enter your email</string>
+    <string name="enter_group_name">Enter group name</string>
+
+
+    <string name="higlights"><u><b>HIGHLIGHTS</b></u></string>
+    <string name="Wishlist"><u>Add to Wishlist</u></string>
+    <string name="Share"><u>Share</u></string>
+    <string name="supra"><b>SUPRA WOOD</b></string>
+    <string name="price"><b>$ 114</b></string>
+
+    <!--login-->
+    <string name="action_settings">Settings</string>
+    <string name="email">UTA ID</string>
+    <string name="passowrd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="userName">User Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="seller_name">Seller Name</string>
+    <string name="seller_phone">Seller Phone</string>
+    <string name="seller_room">Seller Room</string>
+    <string name="seller_email">Seller Email</string>
+    <string name="seller_block">Seller Block</string>
+    <string name="time_period">Time in months</string>
+    <string name="product_price">Price</string>
+    <string name="sell_submit">Post Ad</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+
+
+    <string-array name="user_photos">
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xpf1/t51.2885-15/s306x306/e15/10665483_429615813855717_1490926670_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10891026_694434897342602_1094773634_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10894920_1382218332084671_10354293_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10895429_768163716566132_692639371_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899087_405295322969722_20422376_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899123_922231267802027_1123900984_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10903214_589111004559561_1485881959_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10914479_770066599745785_704061869_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10914587_1580079332227764_829762970_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10919231_605000369644967_1578007175_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10932142_330866587116424_1327271556_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xfa1/t51.2885-15/s306x306/e15/10932410_1544715455813452_1107632347_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xfp1/t51.2885-15/s306x306/e15/891516_579817258815508_1989379587_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/1922172_719849754801056_911351010_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10914370_1519297625009641_722250486_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10903746_368501953321344_2002746420_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10903270_1397263717236338_950192395_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10903242_441936642627221_576882729_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899295_796858437028648_664655000_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899139_948470841831743_1406659049_n.jpg</item>
+        <item>http://scontent-a-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899123_922231267802027_1123900984_n.jpg</item>
+        <item>http://scontent-b-fra.cdninstagram.com/hphotos-xaf1/t51.2885-15/s306x306/e15/10899087_405295322969722_20422376_n.jpg</item>
+    </string-array>
+    <string name="user_profile_photo">http://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/929118_455075441302693_1605108410_a.jpg</string>
+
+</resources>
